@@ -1,7 +1,8 @@
 # familyprotect
 各大游戏中的家人保护器，附带默认阴阳语料库
 ## top
-v1.2 注意到lol有时存在剪切板屏蔽问题，目前尚在解决，如要lol进行保护，请先暂时移步https://github.com/MisterZakary/LOL_Family_Protector/tree/main，zakary师傅的脚本是用ahk写的，简洁干练但只适用于lol。
+v1.2 注意到lol有时存在剪切板屏蔽问题，目前尚在解决，如要lol进行保护，请先暂时移步https://github.com/MisterZakary/LOL_Family_Protector/tree/main
+zakary师傅的脚本是用ahk写的，简洁干练但只适用于lol。
 除lol有时遭遇此问题外其他游戏目前正常。
 ## background
 相信各位都有在游戏时被队友或对手喷的体无完肤却无力回击的时候，本脚本旨在解决各大游戏中咱们这种老实玩家的痛点，让你拿起武器保护家人！
