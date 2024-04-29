@@ -10,7 +10,7 @@
 
 ![1714357803188](https://github.com/jidle123/familyprotect/assets/123531867/2748b8b4-2d70-448b-998c-f43f5c120590)
 
-详细原理：使用了 <fstream> 来读取文件内容，并将每行存储在 std::vector<std::string> 中。然后，使用 C++11 的随机数引擎和分布来选择一个随机行。最后，使用 Windows API 来将选定的行复制到剪贴板。同时使用了 Windows API 函数 GetAsyncKeyState 来检测按键状态。在一个无限循环中，它会检测 F2 键和 F10 键的状态。当按下 F2 键时，将调用 copyRandomLineToClipboard 函数来随机复制一行到剪贴板。按下 F10 键时，程序将退出循环。
+详细原理：使用了fstream来读取文件内容，并将每行存储在 std::vector<std::string> 中。然后，使用 C++11 的随机数引擎和分布来选择一个随机行。最后，使用 Windows API 来将选定的行复制到剪贴板。同时使用了 Windows API 函数 GetAsyncKeyState 来检测按键状态。在一个无限循环中，它会检测 F2 键和 F10 键的状态。当按下 F2 键时，将调用 copyRandomLineToClipboard 函数来随机复制一行到剪贴板。按下 F10 键时，程序将退出循环。
 ## how to use
 1. 打开familyprotect.exe
 2. 进入游戏
