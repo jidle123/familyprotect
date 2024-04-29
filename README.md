@@ -5,6 +5,7 @@
 ## how it works
 本脚本不到1M，非常小，原理也很简单，随机从同目录下的data.txt语料库中选取一行复制进剪贴板，然后玩家只需要crtl+v到对话框里就好。如下图所示：
 ![9800b5662adcf4a0d4a1f79573df169](https://github.com/jidle123/familyprotect/assets/123531867/be6e415b-6ca7-4dce-b867-0759cb1a0dd1)
+
 **安全性**：至于被检测到，各位老实玩家大可不必担心，这玩意和脚本有本质区别，和游戏接口没有直接交互，而剪贴板是windows系统公有的。可按如下理解：
 ![1714357803188](https://github.com/jidle123/familyprotect/assets/123531867/2748b8b4-2d70-448b-998c-f43f5c120590)
 
